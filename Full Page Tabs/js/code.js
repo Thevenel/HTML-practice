@@ -9,6 +9,9 @@ function openPage(pageName, elmnt, color){
     for (i = 0; i < tablinks.length; i++){
         tablinks[i].style.backgroundColor = "";
     }
-    document.getElementById("pageName").display.display = "block";
+    document.getElementById(pageName).style.display = "block";
     elmnt.style.backgroundColor = color;
 }
+
+/* Set the news tab to show as default */
+document.getElementById("openDefault").click();
