@@ -1,0 +1,43 @@
+<!Doctype html>
+
+<html>
+    <head>
+        <title>Full Page Tabs</title>
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <meta http-equiv="content-type" content="text/html"; charset="utf-8">
+
+         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    </head>
+    <body>
+        <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+        <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+        <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+        <button class="tablink" onclick="openPage('About', this, 'orangered')">About</button>
+
+        <div id="Home" class="tabcontent">
+            <h3>Home</h3>
+            <p>Home is where the heart is...</p>
+        </div>
+
+        <div id="News" class="tabcontent">
+            <h3>News</h3>
+            <p>Some news this fine day!</p>
+        </div>
+
+        <div id="Contact" class="tabcontent">
+            <h3>Contact</h3>
+            <p>Get in touch, or swing by for a cop of coffee.</p>
+        </div>
+
+        <div id="About" class="tabcontent">
+            <h3>About</h3>
+            <p>Who are we and what we do.</p>
+        </div>
+
+        <script type="text/javascript" src="js/code.js"></script>
+    </body>
+
+</html>
